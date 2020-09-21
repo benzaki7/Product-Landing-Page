@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header">
+
+        <div id="logo">
+            <a href="#showcase"><img id="header-img" src="./image/Logo.png" alt="Website Logo"></a>
+            <h1><a href="#showcase">Beast</a></h1>
+        </div>
+
+        <nav id="nav-bar">
+
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#showcase">Home</a></li>
+                <li><a class="nav-link" href="#section1">Features</a></li>
+                <li><a class="nav-link" href="#section2">Pricing</a></li>
+                <li><a class="nav-link" href="#form">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="showcase" id="showcase">
+            <img src="./image/Headphones.png"
+                alt="">
+            <div class="container">
+                <h1>Beast Headphones</h1>
+                <p>Lorem ipsum dolor sit amet conse adipisicing elit. Culpa quam quibus ipsum placeat quasi
+                    velit!</p>
+                <button>Buy</button>
+            </div>
+        </div>
+
+        <div id="section1">
+            <h2 id="title1">Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://www.sony.com/image/0277346be51ea78ccaf5d539d6bd4347?fmt=png-alpha&wid=720" alt="">
+                    <h3>Noise cancelling</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus, dolore possimus
+                        inventore, rerum odit ea culpa laborum aut voluptatum nobis quas, nisi sit voluptates!</p>
+                </div>
+                <div class="feature">
+                    <img src="https://www.sony.com/image/aacc860fb93ae477a4628b80b6e82c96?fmt=png-alpha&wid=720" alt="">
+                    <h3>Premium sound</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus, dolore possimus
+                        inventore, rerum odit ea culpa laborum aut voluptatum nobis quas, nisi sit voluptates!</p>
+                </div>
+                <div class="feature">
+                    <img src="https://www.sony.com/image/4098f49243c52f3043855a7f797efd25?fmt=png-alpha&wid=720" alt="">
+                    <h3>Total comfort</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus, dolore possimus
+                        inventore, rerum odit ea culpa laborum aut voluptatum nobis quas, nisi sit voluptates!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="videowrapper">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/V2i1YkfrM54?controls=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <div id="section2">
+            <h2 id="title2">Pricing</h2>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h3>Beast Wireless Headphones</h3>
+                    <h4>150$</h4>
+                    <ul>
+                        <li>Wireless BLUETOOTH® streaming</li>
+                        <li>Up to 35 hours of battery life and Quick Charging</li>
+                        <li>Lightweight/Swivel design for portability</li>
+                    </ul>
+                    <button type="button">Buy</button>
+                </div>
+                <div class="card">
+                    <h3>Beast Bluetooth Wireless Headphones</h3>
+                    <h4>270$</h4>
+                    <ul>
+                        <li>EXTRA BASS™ for deep, punchy sound</li>
+                        <li>High quality wireless audio with Bluetooth® technology</li>
+                        <li>Up to 30 hours of battery life and quick charge</li>
+                    </ul>
+                    <button type="button">Buy</button>
+                </div>
+                <div class="card">
+                    <h3>Beast Wireless Noise Cancelling Headphones</h3>
+                    <h4>350$</h4>
+                    <ul>
+                        <li>HD Noise Cancelling Processor QN1 </li>
+                        <li>High quality wireless audio with BLUETOOTH®</li>
+                        <li>Smart listening technology to enhance your listening</li>
+                    </ul>
+                    <button type="button">Buy</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2 id="title3">Contact</h2>
+            <h3>Exclusive offers in your inbox</h3>
+            <p class="para1">Subscribe today to receive offers available only to our subscribers.
+            </p>
+            <input type="email" id="email" name="email" placeholder="Enter Your Email address here" required><br>
+
+            <input type="submit" id="submit" value="Subscribe">
+            <p class="para2">You can unsubscribe at any time</p>
+        </form>
+        <p class="footer">Benzaki Web Development Copyright &copy; 2020</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
